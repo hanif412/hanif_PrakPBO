@@ -19,12 +19,12 @@ public class Testlogin extends execute {
         Connection con = null;
         Statement stmt = null;
         ResultSet rs = null;
-
+       
         String dbUrl = "Jdbc:mysql://localhost:3306/pbo";
         String login = "root";
         String pwd = null;
         String sql = "Select id,username,password from login";
-
+        
         String username, password;
         Scanner input = new Scanner(System.in);
         login cheklogin  = new login();
@@ -57,8 +57,8 @@ public class Testlogin extends execute {
             }
         }
         while (true) {
-
-            System.out.println("LOGIN SEBAGAI : ");
+            
+            System.out.println("Muhammad Hanif");
             System.out.print("Username\t : ");
             username = input.nextLine();
             System.out.print("Passwrod\t : ");
