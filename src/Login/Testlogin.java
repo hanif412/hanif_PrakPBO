@@ -58,7 +58,7 @@ public class Testlogin extends execute {
         }
         while (true) {
             
-            System.out.println("Muhammad Hanif");
+            System.out.println("Login Sebagai");
             System.out.print("Username\t : ");
             username = input.nextLine();
             System.out.print("Passwrod\t : ");
