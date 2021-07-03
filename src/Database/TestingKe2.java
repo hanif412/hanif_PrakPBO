@@ -12,5 +12,6 @@ package Database;
 public class TestingKe2 {
     public static void main(String[] args) {
         System.out.println("Kelas 1 TIC");
+        System.out.println("Perubahan Github");
     }
 }
